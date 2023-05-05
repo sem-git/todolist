@@ -1,0 +1,64 @@
+body {
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    background-color: #f6f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #004aad;
+    margin-top: 40px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    font-family: 'Gowun Batang', serif;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #002e64;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+  }
+  
+  li:hover {
+    background-color: #ebd2d2;
+  }

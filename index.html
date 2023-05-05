@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <h1>이세민의 To Do List</h1>
+    <form action="">
+      <input type="text" id="subject" placeholder="할 일을 입력하세요 :)" autofocus>
+      <button type="button" onclick="newRegister(); return false;">추가</button>
+    </form>
+    <ul id="itemList"></ul>
+  </div>
+  <script src="todolist.js"> </script>
+</body>
+
+</html>
