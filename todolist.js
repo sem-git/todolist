@@ -7,7 +7,7 @@ function newRegister() {
     newItem.appendChild(txtNode);
     document.getElementById("itemList").appendChild(newItem);
   
-    /* 노드 삭제 */
+    /* 클릭하면 노드 삭제 */
     var items = document.querySelectorAll("li");
     for (i = 0; i < items.length; i++) {
       items[i].addEventListener("click", function () {
